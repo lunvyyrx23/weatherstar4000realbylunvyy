@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Star4000', monospace;
+  background-color: black;
+  color: white;
+  background-image: url('backgroundcc.png');
+  background-size: cover;
+}
+
+#map-container {
+  position: relative;
+  width: 640px;
+  height: 480px;
+}
+
+#map {
+  width: 100%;
+  height: auto;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#ticker {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #000080;
+  font-size: 14px;
+  color: yellow;
+}
